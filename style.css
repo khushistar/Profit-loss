@@ -43,6 +43,7 @@ input {
     color: #fff;
     border: none;
     margin: 1.5rem;
+    cursor: pointer;
 }
 
 #output {
