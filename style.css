@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Charm&family=Cinzel&family=Cormorant+Unicase&family=Dancing+Script&family=Ephesis&family=Great+Vibes&family=Kalam&family=Lora&family=Mate+SC&family=Petit+Formal+Script&family=Poppins:wght@300;400;500;600;700&family=Prompt&family=Quicksand&family=Raleway&family=Roboto:wght@300;400&family=Space+Grotesk:wght@300&family=Ysabeau+SC:wght@100;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0.7rem;
+}
+
+input {
+    outline: #fff;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #7c3aed;
+}
+
+#calculate {
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    background-color: #7c3aed;
+    color: #fff;
+    border: none;
+    margin: 1.5rem;
+}
+
+#output {
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    margin: 1rem 1rem 2rem;
+    list-style-type: none;
+}
+
+.link i {
+    font-size: 2rem;
+}
