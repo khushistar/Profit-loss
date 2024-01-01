@@ -12,7 +12,8 @@ function calculateProfitandLoss(initialPrice, curruntPrice, quantity) {
     showMassage(
       `Loss! The loss is ${loss} and the Lossprecentage is ${lossPrecentage.toFixed(
         2
-      )}%`
+      )}%`,
+      "red"
     );
   } else if (curruntPrice > initialPrice) {
     let profit = (curruntPrice - initialPrice) * quantity;
@@ -20,15 +21,17 @@ function calculateProfitandLoss(initialPrice, curruntPrice, quantity) {
     showMassage(
       `Hey! The profit is ${profit} and the Profitprecentage is ${profitPrecentage.toFixed(
         2
-      )}%`
+      )}%`,
+      "green"
     );
   } else {
     showMassage("No pain no gain and no gain no pain");
   }
 }
 
-function showMassage(msg) {
+function showMassage(msg, textcolor) {
   output.innerText = msg;
+  output.style.color = textcolor;
 }
 function handleClick() {
   let ip = Number(InitialPrice.value);
